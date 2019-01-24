@@ -1,0 +1,62 @@
+iframe {
+    border: 0;
+}
+
+nav {
+    background-color: #000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-family: 'Aleo', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a9650;
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-flow: row wrap;
+    margin: 80px auto 0 auto;
+    background-color: green;
+    padding: 1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 90%;
+    height: 30px;
+    margin: 0 0 0 5%;
+    background-color: #000;
+    color: #eee;
+    display: flex;
+}
+
+.detail_footer {
+    /* position: absolute; */
+    position: relative;
+    bottom: 0;
+    margin: 10px 0 0 5%;
+    background-color: #000;
+    color: #eee;
+    width: 90%;
+}
+
+footer p {
+    margin: auto;
+}
+
