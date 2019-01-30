@@ -23,8 +23,7 @@ nav a {
     color: #5a9650;
 }
 
-
-#container {
+/* #container {
     display: flex;
     justify-content: space-evenly;
     align-content: space-around;
@@ -32,6 +31,27 @@ nav a {
     margin: 80px auto 0 auto;
     background-color: green;
     padding: 1em;
+} */
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 80px auto 0 auto;
+    grid-gap: 1em;
+    background-color: gray;
+}
+
+#container div {
+    padding: 1em;
+    background-color: #5a9650;
+    justify-items: center;
+}
+
+.content a {
+    position: relative;
+    top: 100px;
+    left: 50px;
 }
 
 footer {
